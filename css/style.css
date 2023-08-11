@@ -1,11 +1,87 @@
-.container {
+/* .container {
     width: 1440px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    
+} */
+
+header{
+    background-image: url(../image/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
+.header-container {
+    display: flex;
+}
+
+.header-list {
+    padding-top: 47px;
+    display: flex;
+    gap: 64px;
+    margin-left: 323px;
+}
+
+.header-link {
+    color: #FFFF;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-logo {
+    padding-top: 40px;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-transform: capitalize;
+    padding-left: 80px;
+}
+
+.head-title:nth-child(1){
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 104px */
+    letter-spacing: -0.8px;
+    text-transform: capitalize;
+}
+
+.head-subtext{
+    max-width: 606px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Gilroy-Regular';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 38.4px */
+    margin-top: 14px;
+}
+
+.search{
+    height: 56px;
+    width: 344px;
+    border-radius: 42px;
+    border: 0.862px solid rgba(255, 255, 255, 0.60);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 
 
 
